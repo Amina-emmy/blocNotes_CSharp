@@ -17,7 +17,7 @@ namespace blocNotes
         {
             InitializeComponent();
         }
-
+        // __________________________________________________________________
         private void save_Click(object sender, EventArgs e)
         {
             var di = new SaveFileDialog(); // var to save something
@@ -42,7 +42,7 @@ namespace blocNotes
                 richTextBox1.Text=File.ReadAllText(di.FileName);
             }
         }
-
+        // __________________________________________________________________
         private void copy_Click(object sender, EventArgs e)
         {
             try
