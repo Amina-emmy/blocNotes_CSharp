@@ -84,7 +84,7 @@ namespace blocNotes
             }
             
         }
-
+        // __________________________________________________________________
         private void print_Click(object sender, EventArgs e)
         {
             printPreviewDialog1.ShowDialog();
@@ -94,7 +94,7 @@ namespace blocNotes
         {
             e.Graphics.DrawString(richTextBox1.Text, richTextBox1.Font, Brushes.Blue, new Point(100,100) );
         }
-
+        // __________________________________________________________________
         private void font_Click(object sender, EventArgs e)
         {
             var difont = new FontDialog();
@@ -116,6 +116,7 @@ namespace blocNotes
             richTextBox1.Font = new Font(richTextBox1.Font, FontStyle.Underline);
 
         }
+        // __________________________________________________________________
 
         private void alignLeft_Click(object sender, EventArgs e)
         {
@@ -126,6 +127,7 @@ namespace blocNotes
         {
             richTextBox1.RightToLeft = RightToLeft.Yes;
         }
+        // __________________________________________________________________
 
         private void bgColor_Click(object sender, EventArgs e)
         {
@@ -136,11 +138,13 @@ namespace blocNotes
                 richTextBox1.BackColor = bgColor.Color;
             }
         }
+        // __________________________________________________________________
 
         private void erase_Click(object sender, EventArgs e)
         {
             richTextBox1.Text= string.Empty;
         }
+        // __________________________________________________________________
 
         private void bunifuSlider1_ValueChanged(object sender, EventArgs e)
         {
