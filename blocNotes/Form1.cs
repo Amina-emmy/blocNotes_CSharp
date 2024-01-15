@@ -142,7 +142,7 @@ namespace blocNotes
 
         private void erase_Click(object sender, EventArgs e)
         {
-            richTextBox1.Text= string.Empty;
+            richTextBox1.Text = string.Empty;
         }
         // __________________________________________________________________
 
