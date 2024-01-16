@@ -262,7 +262,7 @@
             this.bunifuSlider1.Location = new System.Drawing.Point(3, 3);
             this.bunifuSlider1.MaximumValue = 100;
             this.bunifuSlider1.Name = "bunifuSlider1";
-            this.bunifuSlider1.Size = new System.Drawing.Size(723, 30);
+            this.bunifuSlider1.Size = new System.Drawing.Size(750, 30);
             this.bunifuSlider1.TabIndex = 0;
             this.bunifuSlider1.Value = 0;
             this.bunifuSlider1.ValueChanged += new System.EventHandler(this.bunifuSlider1_ValueChanged);
