@@ -8,4 +8,4 @@ you can also change the BackGround color.
 
 the slider on the bottom is a BanifuSlider for zoom ; the content will be zoomed , in or out as you slide 
 
-=> THAT WAS TO GET AN IDEA ABOUT C# AND ITS DIFFERENT DIALOGS KINDS ? FUNCTIONS & EVENTS
+=> <span style="color: green;"> THAT WAS TO GET AN IDEA ABOUT C# AND ITS DIFFERENT DIALOGS KINDS ? FUNCTIONS & EVENTS </span>
